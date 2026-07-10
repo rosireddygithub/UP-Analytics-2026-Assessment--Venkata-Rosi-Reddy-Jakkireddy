@@ -2,6 +2,15 @@
 
 An end-to-end Machine Learning application that predicts whether a customer belongs to the premium income segment (>50K) using demographic and employment information.
 
+
+🚀 Live Demo
+
+👉 **[Click here to try the Live Demo](https://swiftprime-premium-predictor.onrender.com/)**
+
+**Live URL:** https://swiftprime-premium-predictor.onrender.com/
+
+---
+
 The project includes:
 
 - Data preprocessing
