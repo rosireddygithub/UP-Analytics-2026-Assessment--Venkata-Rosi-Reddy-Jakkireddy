@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftPrime Premium Customer Identification</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>SwiftPrime Premium Customer Identification</h1>
+
+    <div class="tabs">
+
+        <button class="tab active" onclick="openTab('single')">
+            Single Prediction
+        </button>
+
+        <button class="tab" onclick="openTab('batch')">
+            Batch Prediction
+        </button>
+
+        <button class="tab" onclick="openTab('csv')">
+            CSV Prediction
+        </button>
+
+    </div>
+
+    <!-- Single Prediction -->
+
+    <div id="single" class="content active">
+
+        <h2>Single Prediction</h2>
+
+        <div class="grid">
+
+            <input id="Age" placeholder="Age">
+
+            <input id="Workclass" placeholder="Workclass">
+
+            <input id="Education" placeholder="Education">
+
+            <input id="EducationNum" placeholder="Education-num">
+
+            <input id="MaritalStatus" placeholder="Marital Status">
+
+            <input id="Occupation" placeholder="Occupation">
+
+            <input id="Relationship" placeholder="Relationship">
+
+            <input id="Race" placeholder="Race">
+
+            <input id="Sex" placeholder="Sex">
+
+            <input id="CapitalGain" placeholder="Capital Gain">
+
+            <input id="CapitalLoss" placeholder="Capital Loss">
+
+            <input id="HoursPerWeek" placeholder="Hours per Week">
+
+            <input id="NativeCountry" placeholder="Native Country">
+
+        </div>
+
+        <button onclick="predictSingle()">
+
+            Predict
+
+        </button>
+
+        <div id="singleResult"></div>
+
+    </div>
+
+    <!-- Batch -->
+
+    <div id="batch" class="content">
+
+        <h2>Batch Prediction</h2>
+
+        <textarea
+                id="batchInput"
+                rows="15"
+                placeholder='{
+ "customers":[
+   {
+     "Age":42,
+     "Workclass":"Private",
+     ...
+   }
+ ]
+}'
+        ></textarea>
+
+        <button onclick="predictBatch()">
+
+            Predict Batch
+
+        </button>
+
+        <div id="batchResult"></div>
+
+    </div>
+
+    <!-- CSV -->
+
+    <div id="csv" class="content">
+
+        <h2>CSV Prediction</h2>
+
+        <input type="file" id="csvFile">
+
+        <button onclick="uploadCSV()">
+
+            Upload & Predict
+
+        </button>
+
+        <div id="csvResult"></div>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
