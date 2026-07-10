@@ -27,6 +27,7 @@ An end-to-end Machine Learning application that predicts whether a customer belo
 Upload a CSV file and automatically download the prediction results.
 
 ![CSV Upload](images/Batch.png)
+![CSV Upload](images/BR.png)
 
 ---
 
