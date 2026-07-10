@@ -6,8 +6,8 @@ The project includes:
 
 - Data preprocessing
 - Feature engineering
-- XGBoost classification model
-- FastAPI REST API
+- Classification models
+- FastAPI
 - Interactive Web UI
 - Batch prediction support
 - CSV upload prediction
@@ -75,7 +75,7 @@ Additional engineered features:
 
 ### Model
 
-- XGBoost Classifier
+- Random Forest, Logistic Regression, XGBoost Classifier
 
 Performance:
 
