@@ -159,13 +159,13 @@ Upload a CSV file and receive a downloadable prediction CSV.
 Clone repository
 
 ```bash
-git clone https://github.com/yourusername/SwiftPrime.git
+git clone https://github.com/yourusername/UP-Analytics-2026-Assessment--Venkata-Rosi-Reddy-Jakkireddy.git
 ```
 
 Move into project
 
 ```bash
-cd SwiftPrime
+cd UP-Analytics-2026-Assessment--Venkata-Rosi-Reddy-Jakkireddy
 ```
 
 Create virtual environment
@@ -199,7 +199,7 @@ pip install -r requirements.txt
 ## Run Application
 
 ```bash
-uvicorn App1:app --reload
+python App1.py
 ```
 
 Open
@@ -241,5 +241,3 @@ label_encoders.pkl
 ## Author
 
 **Venkata Rosi Reddy Jakkireddy**
-
-Analytics Engineer | Machine Learning | Data Science
