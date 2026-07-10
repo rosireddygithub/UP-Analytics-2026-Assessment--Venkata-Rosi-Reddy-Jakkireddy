@@ -11,6 +11,25 @@ An end-to-end Machine Learning application that predicts whether a customer belo
 
 ---
 
+## 🏠 Home Page
+
+![Home Page](images/Home.png)
+
+##  👥 Batch Prediction
+
+!Predict multiple customers at once using JSON input.
+
+![Batch Prediction](images/s1.png)
+![Batch Prediction](images/s2_.png)
+
+## 📄 CSV Prediction
+
+Upload a CSV file and automatically download the prediction results.
+
+![CSV Upload](images/Batch.png)
+
+---
+
 The project includes:
 
 - Data preprocessing
