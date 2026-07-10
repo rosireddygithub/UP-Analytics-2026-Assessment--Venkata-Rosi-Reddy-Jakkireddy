@@ -17,7 +17,7 @@ The project includes:
 ## Project Structure
 
 ```
-SwiftPrime/
+UP-Analytics-2026-Assessment--Venkata-Rosi-Reddy-Jakkireddy/
 │
 ├── App1.py
 ├── xgboost_swiftprime_model.pkl
